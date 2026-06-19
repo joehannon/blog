@@ -1,5 +1,5 @@
 ---
 title: Joe Hannon's blog
-author: Joe Hannon
+author: joehannon
 description: Mostly tech
 ---
