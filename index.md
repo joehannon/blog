@@ -1,3 +1,3 @@
 ---
-title: Joe Hannon's blog.
+title: Joe Hannon's blog
 ---
