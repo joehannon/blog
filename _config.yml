@@ -2,5 +2,3 @@ theme: minima
 title: Joe Hannon's blog
 description: Mostly tech
 markdown: kramdown
-minima:
-  hide_site_feed_link: true
