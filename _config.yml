@@ -1,6 +1,9 @@
-theme: jekyll-theme-minimal-mistakes
-markdown: kramdown
-math: true
+theme: minimal
 title: joe hannon's blog
 author: joehannon
 
+defaults:
+  - scope:
+      path: "_posts"
+    values:
+      layout: "posts"
