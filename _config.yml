@@ -2,3 +2,5 @@ theme: minima
 title: Joe Hannon's blog
 description: Mostly tech
 markdown: kramdown
+author:
+  name: Github joehannon
