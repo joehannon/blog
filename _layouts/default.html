@@ -7,14 +7,15 @@
     {% include header.html %}
     <main class="page-content" aria-label="Content">
       
-      <div class="wrapper">
-          {%- if page.tags -%}
-          {% for tag in page.tags %}
-            <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+    {%- if page.tags -%}
+    {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
             #{{ tag }}
-            </a>
-          {% endfor %}
-          {%- endif -%}
+        </a>
+    {% endfor %}
+    {%- endif -%}
+      
+      <div class="wrapper">
         {{ content }}
       </div>
     </main>
