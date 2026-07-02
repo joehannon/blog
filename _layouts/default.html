@@ -8,6 +8,13 @@
     <main class="page-content" aria-label="Content">
       
       <div class="wrapper">
+          {%- if page.tags -%}
+          {% for tag in page.tags %}
+            <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            #{{ tag }}
+            </a>
+          {% endfor %}
+          {%- endif -%}
         {{ content }}
       </div>
     </main>
