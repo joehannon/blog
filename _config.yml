@@ -4,3 +4,4 @@ description: Mostly tech
 markdown: kramdown
 author:
   name: Github joehannon
+paginate: 5
