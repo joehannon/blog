@@ -12,6 +12,14 @@
     </main>
     {% include footer.html %}
 
+    {%- if page.tags -%}
+    {% for tag in page.tags %}
+        <a href="{{site.baseurl}}/archive.html#{{tag | slugize}}">
+            #{{ tag }}
+        </a>
+    {% endfor %}
+    {%- endif -%}
+    
     <!-- Force injection here if head tags fail -->
     {% if page.mathjax %}
     <script>
